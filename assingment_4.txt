@@ -1,0 +1,23 @@
+Vad blir svaret om du skriver
+
+    print(1 == 0.99)
+    print(1 == 0.99999999999)
+    print(1 == 0.99999999999999999999)
+
+Förklara! (det räcker att förstå varför fenomenet uppstår, i termer av datatypen float)
+
+
+
+
+
+    1)
+    print(1 == 0.99)
+    Svaret blir false för satsen kollar om sakerna på båda sidorna om "==" är lika. 0,99 är inte lika med 1 så därför blir det "false".
+
+    2)
+    print(1 == 0.99999999999)
+    Samma här. 0,99999999999 är inte riktigt 1. Svaret blir "false".
+
+    3)
+    print(1 == 0.99999999999999999999)
+    Med så många decimaler avrundar scriptet 0,99999999999999999999. När den avrundas blir den = 1. 1 == 1 och därför är den här "true".
