@@ -1,4 +1,4 @@
-# Uppgift 12
+# Uppgift 2
 
 #Skriv ett program som frågar "Vad heter du?" tar emot en sträng från tangentbordet, och skriver ut denna sträng 39 gånger, med nyrad emellan.
 
